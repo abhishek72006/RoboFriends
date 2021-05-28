@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Hello from './Hello';
+import Card from './Card';
 import 'tachyons';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Hello greeting={'hello react ninja'}/>,
+  <Card/>,
   document.getElementById('root')
 );
 
